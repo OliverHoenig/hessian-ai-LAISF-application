@@ -143,10 +143,10 @@ MVP mit Ziel-/Agenda-Pipeline, Live-Transkription und ersten proaktiven AI-Moder
 ### Meilenstein 1
 
 **Fälligkeitsdatum:** 2026-10-31  
-**Name (90):** Concept, BA-Transfer & Setup  
-**Aktivitäten (320):** BA-Erkenntnisse zur proaktiven Moderation in Architektur überführen; Tech-Stack (LLM-Pipelines, Mistral/Voxtral Transkription); Privacy- und BYO-Model-Konzept skizzieren; Pilot-ICP und Hypothesen festlegen; Outreach starten.
+**Name (90):** BA-Transfer & Prototyp-Ausbau  
+**Aktivitäten (320):** Bestehendes Konzept und Agenda-Prototyp um BA-Erkenntnisse zur proaktiven Moderation erweitern; Architektur und Tech-Stack (LLM-Pipelines, Mistral/Voxtral) darauf aufsetzen; Privacy-/BYO-Model skizzieren; Pilot-ICP und Hypothesen festlegen; Outreach starten.
 
-*(Name 28 / 90 · Aktivitäten 224 / 320)*
+*(Name 29 / 90 · Aktivitäten 258 / 320)*
 
 ### Meilenstein 2
 
@@ -168,29 +168,28 @@ MVP mit Ziel-/Agenda-Pipeline, Live-Transkription und ersten proaktiven AI-Moder
 
 **Fälligkeitsdatum:** 2027-02-28  
 **Name (90):** PMF-Signale & Roadmap Phase 2/3  
-**Aktivitäten (320):** Pilot-Learnings verdichten; Pricing/ICP schärfen; Roadmap Phase 2 (Open-Weight, Datenhoheit, Stimme/Emotion) spezifizieren; Business-Perspektive und Folgefinanzierung dokumentieren; Projektdoku vorbereiten.
+**Aktivitäten (320):** Pilot-Learnings verdichten; Pricing/ICP schärfen; Roadmap Phase 2 (Open-Weight, Datenhoheit, Stimme/Emotion) spezifizieren; Business-Perspektive und Folgefinanzierung dokumentieren; Projektdoku.
 
 *(Name 31 / 90 · Aktivitäten 184 / 320)*
 
 ### Mittelverwendung (1200)
 
-Die 5.000 € Materialbudget setzen wir gezielt für Validierung und MVP-Infrastruktur ein — nicht für Overhead:
+Die 5.000 € Materialbudget sollen gezielt für Validierung und MVP-Infrastruktur eingesetzt werden:
 
-• Cloud-/API-Kosten für LLM-Pipelines und Live-Transkription (Mistral/Voxtral u. a.) während Entwicklung und Pilots
-• Hosting und Basis-Infrastruktur für den MVP (Staging/Prod, Logging, sichere Speicherung gemäß DSGVO)
-• Nutzerforschung: Aufwandsentschädigungen/Incentives für Pilotteams und Facilitator-Workshops, Testaccounts
-• Software/Tools für Prototyping, Analytics und Meeting-Integrationen
-• Kleine Reise-/Workshop-Kosten zu Pilotterminen oder hessian.AI-/Netzwerk-Events, sofern unmittelbarer Validierungsnutzen
+• ca. 1.800 € Cloud-/API (LLM-Pipelines, Live-Transkription Mistral/Voxtral) für Entwicklung + Pilots
+• ca. 900 € Hosting/Infra (Staging/Prod, Logging, DSGVO-konforme Speicherung)
+• ca. 1.000 € Nutzerforschung (Incentives Pilotteams, Facilitator-Workshops, Testaccounts)
+• ca. 500 € Software/Tools (Prototyping, Analytics, Meeting-Integrationen)
+• ca. 800 € Reise/Workshops zu Pilotterminen oder Events mit Validierungsnutzen
 
 Bei erfolgreicher Mid-term-Präsentation und bis zu 30.000 € Zusatzförderung priorisieren wir:
 • Ausbau der Pilotkapazität (weitere Teams, längere Begleitung)
+• Gezielte Ansprache weiterer Pilotkunden durch teurere Akquisemaßnahmen (z.B. Messestand, Werbemittel)
 • Erste Schritte Richtung Phase 2 (Open-Weight-Evaluation, Datenhoheit, ggf. Stimme/Emotion)
-• Erste Experimente Richtung Interventions-Klassifikation (Datenpipeline, Evaluation) — noch kein teures Full-Training, sondern messbare Vorarbeiten
+• Erste Experimente Richtung Interventions-Klassifikation (Datenpipeline, Evaluation)
 • Stärkere Integration und Stabilität für produktiven Pilotbetrieb
 
-Prinzip: Jeder Euro soll Hypothesen zu Nutzen, Interventionstiming und Zahlungsbereitschaft beschleunigen.
-
-*(1191 / 1200)*
+*(1123 / 1200)*
 
 ---
 
