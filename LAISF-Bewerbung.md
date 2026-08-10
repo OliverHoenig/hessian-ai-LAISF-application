@@ -64,31 +64,31 @@ Meettopia: KI-Moderation, die Meetings wirksam macht
 ### Beschreibung (850)
 
 Andere Tools organisieren Meetings; Meettopia macht Meetings endlich wieder wirksam.
-Meettopia wird die Plattform für KI-gestützte Meetings und ermöglicht es Teams und Organsiation, gemeinsam Geniales zu schaffen. Es wird sichergestellt, dass in jedem Meeting Ziele klar werden, Strukturen greifen und echte Fortschritte erzielt werden.
-Druch KI-Moderation und KI-Avataren, profitieren Teams von individuell zugeschnittenen Interventionen, schneller Problemlösung und direkten Handlungsempfehlungen. Das steigert die Wirkung jedes Meetings und macht kollektives Wissen unmittelbar nutzbar, sodass Effektivität und Innovationskraft spürbar steigern. 
-Stand: MVP zur Meetingzieloptimierung und Agenda-Erstellung, Forschung zur kontextsensitiven KI-Moderation (Abschlussarbeit TU Darmstadt, Abgabe Oktober) und Netwerk zu Facilitatoren aufgebaut.
+Meettopia wird die Plattform für KI-gestützte Meetings und ermöglicht es Teams und Organisation, gemeinsam Geniales zu schaffen. Es wird sichergestellt, dass in jedem Meeting Ziele klar werden, Strukturen greifen und echte Fortschritte erzielt werden.
+Durch KI-Moderation und KI-Avatare profitieren Teams von individuell zugeschnittenen Interventionen, schneller Problemlösung und direkten Handlungsempfehlungen. Das steigert die Wirkung jedes Meetings und macht kollektives Wissen unmittelbar nutzbar, sodass Effektivität und Innovationskraft spürbar steigen. 
+Stand: MVP zur Meetingzieloptimierung und Agenda-Erstellung, Forschung zur kontextsensitiven KI-Moderation (Abschlussarbeit TU Darmstadt, Abgabe Oktober) und Netzwerk zu Facilitatoren aufgebaut.
 
-*(843 / 850)*
+*(841 / 850)*
 
 ### Innovationsbeschreibung (3000)
 
 PROBLEM
-In Deutschland verbringen Wissensarbeiter:innen ca. Ø5,2-12h pro Woche in Meetings. Bei Führungskräften sind 20h+ nicht selten. Studien gehen davon aus, dass 30-72% der Meetings ineﬀektiv sind und Meetigs zu den unbelibesten Elementen des Arbeitsalltags zählen. Zu den gebunden Personalkosten, kommt noch ein nicht zu unterschätzender Anteil an schwer zu quantifizierenden Faktoren, wie Zeitverlust bei Kontextwechsel und Motivationsverlust dank Meeting-Frust. Meetings sind somit ein enormer Kostenpunkt für viele Organisationen.
+In Deutschland verbringen Wissensarbeiter:innen ca. Ø5,2-12h pro Woche in Meetings. Bei Führungskräften sind 20h+ nicht selten. Studien gehen davon aus, dass 30-72% der Meetings ineffektiv sind und Meetings zu den unbeliebtesten Elementen des Arbeitsalltags zählen. Zu den gebundenen Personalkosten, kommt noch ein nicht zu unterschätzender Anteil an schwer zu quantifizierenden Faktoren, wie Zeitverlust bei Kontextwechsel und Motivationsverlust dank Meeting-Frust. Meetings sind somit ein enormer Kostenpunkt für viele Organisationen.
 
 LÖSUNG
 Gute Meetings hingegen sind kein Kostenfaktor, sondern ein Werttreiber: Sie steigern Zufriedenheit und helfen Teams innovative Lösungen zu generieren. Externe Hilfe und starre Regeln wirken oft nur punktuell, weil Teams keine Tools haben, ihre eigenen Meetings kontinuierlich selbst zu verbessern.
 Meettopia unterstützt Teams von der Zieldefinition über strukturierte Agenden mit best-practice facilitation-Methoden bis zur Nachbereitung. Durch KI-gestützte Moderation und datenbasierte Insights (z. B. Redezeitanalyse, Stimmungsfeedback) werden Meetings fokussierter, kürzer und ergebnisorientierter. Individuelles datenbasiertes Feedback fördert Selbstreflexion, verbessert Kommunikationsskills und stärkt so die Meetingkultur.
-Teams können eigene KI-Avatare mit Unternehmenswissen ausstatten und gezielt im Meeting einsetzen. Interes oder externes (über einen Marktplatz) Fachwissen ist so direkt verfügbar, wodurch Meetings fundierter, schneller und vielseitiger werden.
+Teams können eigene KI-Avatare mit Unternehmenswissen ausstatten und gezielt im Meeting einsetzen. Internes oder externes (über einen Marktplatz) Fachwissen ist so direkt verfügbar, wodurch Meetings fundierter, schneller und vielseitiger werden.
 
 USP
 Calendly, Zoom, Miro, Transkriptions-Tools und Meeting-Copilots lösen Teilprobleme (Termine, Whiteboards, Notizen). Sie adressieren Symptome, nicht aber die eigentlichen Probleme von Meetings: Struktur, Facilitation und kontinuierliche Verbesserung sind per Konstruktion der aktuellen Meeting-Tools unterrepräsentiert.
 
 TECHNISCHE BESCHREIBUNG
 Phase 1: Zieloptimierung und Agenda-Erstellung lassen sich gut mit LLM-Pipelines und RAG auf Facilitation-Best-Practices umsetzen. Die KI-Moderation braucht eine aufwendigere Reasoning-Pipeline: Während sprachbasierte KI-Systeme meist reagieren (z. B. nach Satzende), muss der Agent proaktiv in Gruppendiskussionen eingreifen können. Es ist nicht trivial diesen Zeitpunkt abzuschätzen. Das wird u. a. in meiner Abschlussarbeit (TU Darmstadt) erforscht. In Phase 1 werden überwiegend externe AI-APIs (z.B. Modelle von Mistral) genutzt.
-Phase 2: Umstellung auf Open-Weight-Modelle und ggf. feinabgestimmte Modelle, um Datenhoheit zurückzugewinnen. Herausforderung: keinen Qualitätsbruch gegenüber den Cloud-APIs. Parallel soll Emotionserkennung in der Stimme als weitere Dimension hinzukommen, um kontextsenistivere Moderation und Insights zu ermöglichen.
-Phase 3: Mit wachsenden Nutzerdaten können eigene Modelle für spezaliserte Teilprobleme (wie z.B. Timing zur Intervation oder Klassifiaktion von Meetingsituationen) trainiert werden. (ermöglicht besser Qualität und Kostensänkung, da Reduzierung von Reasoning-Loops)
+Phase 2: Umstellung auf Open-Weight-Modelle und ggf. feinabgestimmte Modelle, um Datenhoheit zurückzugewinnen. Herausforderung: keinen Qualitätsbruch gegenüber den Cloud-APIs. Parallel soll Emotionserkennung in der Stimme als weitere Dimension hinzukommen, um kontextsensitivere Moderation und Insights zu ermöglichen.
+Phase 3: Mit wachsenden Nutzerdaten können eigene Modelle für spezialisierte Teilprobleme (wie z.B. Timing zur Intervention oder Klassifikation von Meetingsituationen) trainiert werden. (bessere Qualität und Kostensenkung durch weniger Reasoning-Loops)
 
-*(4287 / 3000)*
+*(2984 / 3000)*
 
 ### Marktumfeld & Markteintritt (2200)
 
@@ -96,7 +96,7 @@ MARKT
 Der Markt für Meeting-Optimierung ist fragmentiert. Getrieben durch Hybrid Work und den Anstieg an Meetings seit 2020 (Corona), wachsen Tools für Terminierung, Video, Whiteboards und KI-Notizen stark. Unterrepräsentiert bleiben Struktur, neutrale Moderation und datengestützte Verbesserung der Meeting-Kultur.
 
 ZIELKUNDEN
-Primär: Wissensteams, die komplex und kollaborativ arbeiten — Produkt-, Strategie-, Forschungs- und Kreativteams; besonders Agenturen, Beratung und innovativ arbeitende Mittelständler. Buyer: Teamleiter:innen, Projektmanager:innen, Scrum Master, Agile Coaches. Use Cases: Ideation/Design Thinking, Strategie-Workshops, cross-funktionales Alignment. Jegrößer die Organsiation umso relevanter wäre eigentlich der Bedarf an Meetopia. Konzerne sind wegen langer Einkaufszyklen aber keine idealen ersten Kunden. Fokus der Validierung: agile Early Adopter mit hoher Meeting-Last und kurzem Entscheidungsweg.
+Primär: Wissensteams, die komplex und kollaborativ arbeiten — Produkt-, Strategie-, Forschungs- und Kreativteams; besonders Agenturen, Beratung und innovativ arbeitende Mittelständler. Buyer: Teamleiter:innen, Projektmanager:innen, Scrum Master, Agile Coaches. Use Cases: Ideation/Design Thinking, Strategie-Workshops, cross-funktionales Alignment. Je größer die Organisation umso relevanter wäre eigentlich der Bedarf an Meettopia. Konzerne sind wegen langer Einkaufszyklen aber keine idealen ersten Kunden. Fokus der Validierung: agile Early Adopter mit hoher Meeting-Last und kurzem Entscheidungsweg.
 
 UNFAIRER VORTEIL: DATENHOHEIT
 Organisationen haben ein intrinsisches Interesse, Unternehmensgeheimnisse nicht weiterzugeben. In Meetings werden oft hochsensible Informationen besprochen. Meettopias unfairer Vorteil ist Datenhoheit: Standort Deutschland kommt zugute. Kein Cloud Act, wenn die Infrastruktur in Europa gehalten wird. Das schafft entscheidendes Vertrauen. Auch arbeitsrechtliche und regulatorische Anforderungen sind relevant; hier spielen die hohen Standortstandards zugunsten von Meettopia.
@@ -108,7 +108,7 @@ Phase 2 (SaaS): Nach validiertem Product-Solution-Fit Skalierung als SaaS für T
 
 Phase 3 (On-Demand-Hosting): Meettopia so anbieten, dass sensible Meeting-Daten die Infrastruktur des Kunden nie verlassen. Das öffnet mittel- bis langfristig regulierte und konzernnahe Segmente.
 
-*(2158 / 2200)*
+*(2152 / 2200)*
 
 ### Teamkompetenzen & LAISF-Vorhaben (2000)
 
@@ -136,9 +136,9 @@ Zentrale Aktivitäten:
 
 ### Gewünschtes Ziel (250)
 
-MVP mit Ziel-/Agenda-Pipeline, Live-Transkription und ersten proaktiven AI-Moderation in realen Pilots; mind. 1, ideal 3 Pilotkunden; klare Learnings und Business-Perspektive Richtung PMF.
+MVP mit Ziel-/Agenda-Pipeline, Live-Transkription und erster proaktiver AI-Moderation in realen Pilots; mind. 1, ideal 3 Pilotkunden; klare Learnings und Business-Perspektive Richtung PMF.
 
-*(218 / 250)*
+*(188 / 250)*
 
 ### Meilenstein 1
 
