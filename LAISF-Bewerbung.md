@@ -46,10 +46,10 @@ oliver.hoenig@balanced-bytes.com
 | Adresse | *(im Formular ergänzen)* |
 | E-Mail | oliver.hoenig@balanced-bytes.com |
 | Telefon | +49 178 9088958 |
-| Förderanteil | 100 |
+| Förderanteil | 50 |
 | LinkedIn | *(im Formular ergänzen, falls vorhanden)* |
 
-Solo-Founder; Summe Förderanteil = 100 % (≤ 200 %).
+Solo-Founder; gewünschter Förderanteil zunächst 50 % (≤ 200 %); Vollzeit nach Abstimmung möglich.
 
 ---
 
@@ -64,16 +64,16 @@ Meettopia: KI-Moderation, die Meetings wirksam macht
 ### Beschreibung (850)
 
 Andere Tools organisieren Meetings; Meettopia macht Meetings endlich wieder wirksam.
-Meettopia wird die Plattform für KI-gestützte Meetings und ermöglicht es Teams und Organsiation, dank des Fokus die Meeting-Kultur zu optimerten, gemeinsam Geniales zu schaffen. Es wird sichergestllt, dass in jedem Meeting Ziele klar werden, Strukturen greifen und echte Fortschritte erzielt werden.
-Druch KI-Moderation und hinzuschaltbaren KI-Avataren (mit Expertenwissendatenbanken), profitieren Teams von individuell zugeschnittenen Interventionen, schneller Problemlösung und direkt anwendbaren Handlungsempfehlungen. Das steigert die Wirkung jedes Meetings und macht kollektives Wissen unmittelbar nutzbar, sodass Teams kontinuierlich aus ihren Meeting-Erfahrungen lernen und so ihre Effektivität und Innovationskraft spürbar steigern. 
-Aktueller Stand: MVP zur Meetingzieloptimierung und Agenda-Erstellung, Forschung zur kontextsensitiven KI-Moderation (Abschlussarbeit TU Darmstadt) und erste Facilitator-Connections. Das Problem ist erkannt, Interesse in Gesprächen da. etzt zählt die zeitnahe Validierung des Product-Solution-Fits mit Pilotkunden, um sich einem klaren Product-Market-Fit zu nähern.
+Meettopia wird die Plattform für KI-gestützte Meetings und ermöglicht es Teams und Organsiation, gemeinsam Geniales zu schaffen. Es wird sichergestellt, dass in jedem Meeting Ziele klar werden, Strukturen greifen und echte Fortschritte erzielt werden.
+Druch KI-Moderation und KI-Avataren, profitieren Teams von individuell zugeschnittenen Interventionen, schneller Problemlösung und direkten Handlungsempfehlungen. Das steigert die Wirkung jedes Meetings und macht kollektives Wissen unmittelbar nutzbar, sodass Effektivität und Innovationskraft spürbar steigern. 
+Stand: MVP zur Meetingzieloptimierung und Agenda-Erstellung, Forschung zur kontextsensitiven KI-Moderation (Abschlussarbeit TU Darmstadt, Abgabe Oktober) und Netwerk zu Facilitatoren aufgebaut.
 
 *(843 / 850)*
 
 ### Innovationsbeschreibung (3000)
 
 PROBLEM
-In Deutschland verbringen Wissensarbeiter:innen ca. Ø5,2-12h pro Woche in Meetings. Bei Führungskräften sind 20h+ nicht selten. Studien gehen davon aus, dass 30-72% der Meetings ineﬀektiv sind und Meetigs zu den unbelibesten Elementen des Arbeitsalltags zählen. Zu den gebunden Personalkosten, kommt noch ein nicht zu unterschätzender Anteil an schwer zu quantifizierenden Faktoren, wie Zeitverlust bei Kontextwechsel und Motivationsverlust dank Meeting-Frust. Meetings sind somit ein enormer Kostenpuntk für viele Organisationen.
+In Deutschland verbringen Wissensarbeiter:innen ca. Ø5,2-12h pro Woche in Meetings. Bei Führungskräften sind 20h+ nicht selten. Studien gehen davon aus, dass 30-72% der Meetings ineﬀektiv sind und Meetigs zu den unbelibesten Elementen des Arbeitsalltags zählen. Zu den gebunden Personalkosten, kommt noch ein nicht zu unterschätzender Anteil an schwer zu quantifizierenden Faktoren, wie Zeitverlust bei Kontextwechsel und Motivationsverlust dank Meeting-Frust. Meetings sind somit ein enormer Kostenpunkt für viele Organisationen.
 
 LÖSUNG
 Gute Meetings hingegen sind kein Kostenfaktor, sondern ein Werttreiber: Sie steigern Zufriedenheit und helfen Teams innovative Lösungen zu generieren. Externe Hilfe und starre Regeln wirken oft nur punktuell, weil Teams keine Tools haben, ihre eigenen Meetings kontinuierlich selbst zu verbessern.
@@ -85,15 +85,15 @@ Calendly, Zoom, Miro, Transkriptions-Tools und Meeting-Copilots lösen Teilprobl
 
 TECHNISCHE BESCHREIBUNG
 Phase 1: Zieloptimierung und Agenda-Erstellung lassen sich gut mit LLM-Pipelines und RAG auf Facilitation-Best-Practices umsetzen. Die KI-Moderation braucht eine aufwendigere Reasoning-Pipeline: Während sprachbasierte KI-Systeme meist reagieren (z. B. nach Satzende), muss der Agent proaktiv in Gruppendiskussionen eingreifen können. Es ist nicht trivial diesen Zeitpunkt abzuschätzen. Das wird u. a. in meiner Abschlussarbeit (TU Darmstadt) erforscht. In Phase 1 werden überwiegend externe AI-APIs (z.B. Modelle von Mistral) genutzt.
-Phase 2: Umstellung auf Open-Weight-Modelle und ggf. feinabgestimmte Modelle, um Datenhoheit zurückzugewinnen. Herausforderung: keinen Qualitätsbruch gegenüber den Cloud-APIs. Parallel soll Emotionserkennung in der Stimme als weitere Dimension hinzukommen, um clevere und kontextsenistivere Moderation und Insights zu ermöglichen.
-Phase 3: Mit wachsenden Nutzerdaten können eigene Modelle für spezaliserte Teilprobleme (wie z.B. Timing zur Intervation oder Klassifiaktion von Meetingsituationen) trainiert werden. (besser Qualität und Kostensänkung, da Reduzierung von Reasoning-Loops)
+Phase 2: Umstellung auf Open-Weight-Modelle und ggf. feinabgestimmte Modelle, um Datenhoheit zurückzugewinnen. Herausforderung: keinen Qualitätsbruch gegenüber den Cloud-APIs. Parallel soll Emotionserkennung in der Stimme als weitere Dimension hinzukommen, um kontextsenistivere Moderation und Insights zu ermöglichen.
+Phase 3: Mit wachsenden Nutzerdaten können eigene Modelle für spezaliserte Teilprobleme (wie z.B. Timing zur Intervation oder Klassifiaktion von Meetingsituationen) trainiert werden. (ermöglicht besser Qualität und Kostensänkung, da Reduzierung von Reasoning-Loops)
 
 *(4287 / 3000)*
 
 ### Marktumfeld & Markteintritt (2200)
 
 MARKT
-Der Markt für Meeting-Optimierung ist fragmentiert. Getrieben durch Hybrid Work und den Anstieg an Meetings seit 2020 (Corona), wachsen Tools für Terminierung, Video, Whiteboards und KI-Notizen wachsen stark. Unterrepräsentiert bleiben Struktur, neutrale Moderation und datengestützte Verbesserung der Meeting-Kultur.
+Der Markt für Meeting-Optimierung ist fragmentiert. Getrieben durch Hybrid Work und den Anstieg an Meetings seit 2020 (Corona), wachsen Tools für Terminierung, Video, Whiteboards und KI-Notizen stark. Unterrepräsentiert bleiben Struktur, neutrale Moderation und datengestützte Verbesserung der Meeting-Kultur.
 
 ZIELKUNDEN
 Primär: Wissensteams, die komplex und kollaborativ arbeiten — Produkt-, Strategie-, Forschungs- und Kreativteams; besonders Agenturen, Beratung und innovativ arbeitende Mittelständler. Buyer: Teamleiter:innen, Projektmanager:innen, Scrum Master, Agile Coaches. Use Cases: Ideation/Design Thinking, Strategie-Workshops, cross-funktionales Alignment. Jegrößer die Organsiation umso relevanter wäre eigentlich der Bedarf an Meetopia. Konzerne sind wegen langer Einkaufszyklen aber keine idealen ersten Kunden. Fokus der Validierung: agile Early Adopter mit hoher Meeting-Last und kurzem Entscheidungsweg.
@@ -113,23 +113,22 @@ Phase 3 (On-Demand-Hosting): Meettopia so anbieten, dass sensible Meeting-Daten 
 ### Teamkompetenzen & LAISF-Vorhaben (2000)
 
 TEAM
-Solo-Founder: Oliver Hönig. Informatik-Studium an der TU Darmstadt; Abschlussarbeit zur kontextsensitiven, „protective“ KI-Moderation in zielorientierten Remote-Meetings — direkter Forschungsanker für Meettopia. Beruflich: ca. drei Jahre neben dem Stuidum in der IT-Beratung gearbietet mit Fokus Software-Qualitätssicherung und DevOps (Konzern und Mittelstand). Das stärkt Anforderungen an Zuverlässigkeit, Testbarkeit und Integrationsqualität — zentral, wenn KI live in Meetings eingreift. Zusätzlich habe ich Connections zu Facilitator:innen aufgebaut: Zugang zu Methodenwissen, Feedback und potenziellen Pilotkanälen.
+Solo-Founder: Oliver Hönig. Informatik-Studium an der TU Darmstadt; Abschlussarbeit zur kontextsensitiven, „protective“ KI-Moderation in zielorientierten Remote-Meetings — direkter Forschungsanker für Meettopia. Beruflich: ca. drei Jahre neben dem Studium in der IT-Beratung gearbeitet mit Fokus Software-Qualitätssicherung und DevOps (Konzern und Mittelstand). Das stärkt Anforderungen an Zuverlässigkeit, Testbarkeit und Integrationsqualität — zentral, wenn KI live in Meetings eingreift. Zusätzlich habe ich Connections zu Facilitator:innen aufgebaut: Zugang zu Methodenwissen, Feedback und potenziellen Pilotkanälen.
 
-Als Solo-Gründer priorisiere ich scharf: Validierung vor Feature-Vollständigkeit. LAISF ist dafür ideal — Förderung für pre-Market-Fit-Projekte, genau unsere Phase.
+Ich bringe bereits einen abgeschlossenen Bachelor mit und beende meine aktuelle Abschlussarbeit voraussichtlich im Oktober; parallel arbeite ich in Teilzeit. Wenn möglich, starte ich LAISF daher zunächst in Teilzeit. Ich bin aber flexibel und kann mir vorstellen, ab Oktober/Dezember Vollzeit an Meettopia zu arbeiten.
+
+Als Solo-Gründer setze ich klare Prioritäten und kann durch mein Informatikstudium fundierte technische Expertise einbringen. Zudem habe ich bereits mehrfach Projekte sowohl im Angestelltenverhältnis als auch in der Selbständigkeit eigenverantwortlich von der ersten Idee über den Vertragsabschluss bis zur erfolgreichen Umsetzung begleitet und verfüge daher über vielseitige Praxiserfahrung in verschiedenen Projektphasen.
 
 LAISF-VORHABEN (Sep 2026 – Feb 2027)
 Übergeordnetes Ziel: validierter Prototyp mit klarer Business-Perspektive und Traction durch Pilots — mindestens 1, idealerweise 3 Pilotkunden.
 
 Zentrale Aktivitäten:
-1) MVP Phase 1: Zielverfeinerung, Agenda-Pipeline, Live-Transkription (Mistral/Voxtral), erste proaktive Moderationssignale auf Basis der BA-Erkenntnisse.
-2) User Research & Pilots: reale Teammeetings, messbare Hypothesen zu Interventionszeitpunkt und wahrgenommenem Nutzen; Iteration.
-3) Privacy-/Integrationskonzept: BYO-Model-Anbindung skizzieren; On-Demand-/On-Prem-Pfad als Roadmap kommunizieren (Differenzierung, noch nicht voll ausbauen).
-4) Traction: Facilitator-Netzwerk und Outreach nutzen; Pilotverträge/LOIs; Pricing- und ICP-Schärfung aus Nutzungsdaten.
-5) Mid-term: Fortschritt zeigen; bei Zusatzmitteln erste Schritte Richtung Phase 2 (Open-Weight/Datenhoheit) und Pilot-Ausbau beschleunigen.
+1) Bachelor-Forschung abschließen und Erkenntnisse zur kontextsensitiven KI-Moderation in Meettopia überführen.
+2) MVP/Prototyp verfeinern (Zielsetzung, Agenda, erste Moderationsfähigkeiten).
+3) Pilotkunden akquirieren und den Prototyp qualitätsgesichert auf den Launch mit Pilots vorbereiten.
+4) Evaluierung und iterative Anpassung des Prototyps auf Basis des Feedbacks der Pilotkunden.
 
-Erfolg am Förderende: MVP in Pilots im Einsatz, belastbare Learnings zu KI-Intervention und Kundennutzen, dokumentierte nächste Schritte Richtung Product-Market-Fit — ohne voreilige Gründung einer Kapitalgesellschaft für das Projekt während der Förderzeit.
-
-*(1922 / 2000)*
+*(1963 / 2000)*
 
 ---
 
@@ -137,7 +136,7 @@ Erfolg am Förderende: MVP in Pilots im Einsatz, belastbare Learnings zu KI-Inte
 
 ### Gewünschtes Ziel (250)
 
-Am Ende der Förderzeit: MVP mit Ziel-/Agenda-Pipeline, Live-Transkription und ersten proaktiven Moderationssignalen in realen Pilots; mind. 1, ideal 3 Pilotkunden; klare Learnings und Business-Perspektive Richtung PMF.
+MVP mit Ziel-/Agenda-Pipeline, Live-Transkription und ersten proaktiven AI-Moderation in realen Pilots; mind. 1, ideal 3 Pilotkunden; klare Learnings und Business-Perspektive Richtung PMF.
 
 *(218 / 250)*
 
